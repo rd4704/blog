@@ -9,9 +9,19 @@
             "email": "austin.todd.j@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rd4704/easel"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/rd4704/parsedown"
+        }
+    ],
     "require": {
         "laravel/framework": "5.3.*",
-        "cnvs/easel": "3.2.*",
+        "cnvs/easel": "dev-amp-easel",
         "cnvs/paper-dark": "*",
         "doctrine/dbal": "2.5.*"
     },
@@ -54,6 +64,6 @@
             "php artisan optimize"
         ]
     },
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
